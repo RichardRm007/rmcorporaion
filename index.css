@@ -31,3 +31,20 @@ h1 {
 nav a:hover {
     color: blue;
 }
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+}

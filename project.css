@@ -1,0 +1,89 @@
+body {
+    color: white;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav > a {
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: cursive, serif;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+
+header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("jogoc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: greenyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: greenyellow;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+header3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("rmcorp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: greenyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+header3 h1{
+    color: greenyellow;
+}
+
+header3 p{
+    margin-bottom: 2em;
+}
